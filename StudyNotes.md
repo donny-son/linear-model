@@ -13,8 +13,8 @@ $$
 $$
 Two linear methods are commonly applied.
 
-1. Regression ($y_i = \beta_0 + \beta_1 x_i + e_i$)
-2. ANOVA ($y_{ij} = \mu + \alpha _i + e_{ij}$)
+1.  Regression ($y_i = \beta_0 + \beta_1 x_i + e_i$)
+2.  ANOVA ($y_{ij} = \mu + \alpha _i + e_{ij}$)
 
 These are both linear in a sense that the parameters($X$) are linear with the design matrix($X$). The equation comes from the same source($Y= X\beta + e$). For the regression case, the design matrix is a spanned set of {$\mathbf{1}, columns(data)$}. On the other hand, for the ANOVA case, the deisign matrix is spanned from the set {$\mathbf{1}, \mathbf{j}_i$} where $\mathbf{j}_i$ is a vector with value 1 for the i-th element and others being all 0 for $\forall i$. 
 
